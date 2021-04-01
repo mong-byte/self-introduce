@@ -1,7 +1,11 @@
 @import "reset.css";
 
-/*screen*/
+/* screen */
 @import "screen/enterence.css";
+@import "screen/menu.css";
+
+/* components */
+@import "component/nav_bar.css";
 
 a {
   text-decoration: none;
@@ -9,4 +13,6 @@ a {
 
 body {
   font-family: "Nanum Pen Script", cursive;
+  height: 98vh;
+  width: 98vw;
 }

@@ -1,0 +1,64 @@
+body {
+  background-color: wheat;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.short_introduce {
+  font-size: 45px;
+  margin-top: 40px;
+  padding: 12px;
+}
+
+.short_self_introduce {
+  color: #20284a;
+}
+
+.menu_img-column {
+  display: flex;
+  justify-content: center;
+}
+
+.menu_img-column img {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+}
+
+.profile,
+.favorite,
+.i_want,
+.mention {
+  padding-right: 36px;
+  padding-bottom: 36px;
+}
+
+.profile_link,
+.favorite_link,
+.i_want_link,
+.mention_link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_comment,
+.favorite_comment,
+.i_want_comment,
+.mention_comment {
+  font-size: 32px;
+  padding: 8px 12px;
+  color: #20284a;
+}
+
+.profile_comment:hover,
+.favorite_comment:hover,
+.i_want_comment:hover,
+.mention_comment:hover {
+  color: tomato;
+}
