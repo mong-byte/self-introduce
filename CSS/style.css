@@ -1,11 +1,11 @@
 @import "reset.css";
 
+/* components */
+@import "component/nav_bar.css";
+
 /* screen */
 @import "screen/enterence.css";
 @import "screen/menu.css";
-
-/* components */
-@import "component/nav_bar.css";
 
 a {
   text-decoration: none;

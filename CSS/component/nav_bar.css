@@ -1,7 +1,7 @@
 .nav_bar {
   display: flex;
   justify-content: space-between;
-  padding: 8px 12px;
+  padding: 12px 12px;
   background-color: wheat;
 }
 
@@ -12,7 +12,7 @@
 .nav_bar .nav_logo {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .nav_menu {
@@ -23,7 +23,7 @@
 
 .nav_menu li {
   padding: 8px 12px;
-  font-size: 24px;
+  font-size: 32px;
 }
 
 .nav_icons {
@@ -32,8 +32,8 @@
 }
 
 .nav_icons li {
-  padding-right: 8px;
-  font-size: 24px;
+  padding-left: 15px;
+  font-size: 32px;
 }
 
 .logo_link:hover {

@@ -9,6 +9,10 @@ main {
   align-items: center;
 }
 
+.nav_menu {
+  display: none;
+}
+
 .short_introduce {
   font-size: 45px;
   margin-top: 40px;
@@ -38,6 +42,20 @@ main {
   padding-bottom: 36px;
 }
 
+@keyframes img_bubble {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
 .profile_link,
 .favorite_link,
 .i_want_link,
@@ -45,6 +63,15 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.profile img:hover,
+.favorite img:hover,
+.i_want img:hover,
+.mention img:hover {
+  animation: img_bubble 0.5s ease-in-out infinite;
+  border: 5px solid white;
+  box-sizing: border-box;
 }
 
 .profile_comment,
@@ -61,4 +88,76 @@ main {
 .i_want_comment:hover,
 .mention_comment:hover {
   color: tomato;
+}
+
+.navbar_toggleBtn {
+  display: none;
+  position: absolute;
+  right: 15px;
+  font-size: 24px;
+}
+
+.navbar_toggleBtn :hover {
+  color: tomato;
+}
+
+.mobile_info {
+  display: none;
+}
+
+.mobile_mode {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 12px;
+  }
+
+  .nav_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav_menu li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav_icons {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  main {
+    display: none;
+  }
+
+  .navbar_toggleBtn {
+    display: block;
+  }
+
+  .nav_menu.active,
+  .nav_icons.active {
+    display: flex;
+  }
+
+  .mobile_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 95%;
+    width: 95%;
+  }
+
+  .mobile_info.active {
+    display: none;
+  }
 }
