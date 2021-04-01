@@ -1,0 +1,12 @@
+@import "reset.css";
+
+/*screen*/
+@import "screen/enterence.css";
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Nanum Pen Script", cursive;
+}
