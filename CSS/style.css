@@ -6,6 +6,7 @@
 /* screen */
 @import "screen/enterence.css";
 @import "screen/menu.css";
+@import "screen/profile.css";
 
 a {
   text-decoration: none;

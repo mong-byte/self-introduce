@@ -1,0 +1,40 @@
+.contents_main {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_column img {
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.profile_info {
+  margin-top: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mobile_info--profile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .contents_main.active {
+    display: none;
+  }
+  .profile_column img {
+    height: 240px;
+    width: 240px;
+  }
+}

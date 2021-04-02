@@ -47,3 +47,62 @@
 .nav_icons li :hover {
   color: tomato;
 }
+
+.navbar_toggleBtn {
+  display: none;
+  position: absolute;
+  right: 15px;
+  font-size: 24px;
+}
+
+.navbar_toggleBtn :hover {
+  color: tomato;
+}
+
+.nav_menu.active,
+.nav_icons.active {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .nav_bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 12px;
+  }
+
+  .nav_menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .nav_menu li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .navbar_toggleBtn {
+    display: block;
+  }
+
+  .nav_icons {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .mobile_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 95%;
+    width: 95%;
+  }
+
+  .mobile_info.active {
+    display: none;
+  }
+}
