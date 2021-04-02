@@ -8,6 +8,8 @@
 @import "screen/menu.css";
 @import "screen/profile.css";
 @import "screen/favorite.css";
+@import "screen/wanna.css";
+@import "screen/mention.css";
 
 a {
   text-decoration: none;

@@ -95,11 +95,16 @@
   }
   .mobile_info {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 24px;
     height: 95%;
     width: 95%;
+  }
+
+  .mobile_info i {
+    margin-bottom: 24px;
   }
 
   .mobile_info.active {

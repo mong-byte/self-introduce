@@ -1,0 +1,19 @@
+.mention_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mention_column img {
+  margin-top: 35px;
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+}
+
+.mention_info {
+  margin-top: 45px;
+  font-size: 32px;
+  text-align: center;
+}
