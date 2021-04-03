@@ -70,7 +70,7 @@ body {
 .i_want img:hover,
 .mention img:hover {
   animation: img_bubble 0.5s ease-in-out infinite;
-  border: 5px solid white;
+  border: 5px solid tomato;
   box-sizing: border-box;
 }
 

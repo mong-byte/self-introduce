@@ -64,6 +64,10 @@
   display: flex;
 }
 
+.mobile_info {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .nav_bar {
     flex-direction: column;
@@ -104,7 +108,7 @@
   }
 
   .mobile_info i {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   .mobile_info.active {
