@@ -17,12 +17,31 @@ body {
 
 .short_introduce {
   font-size: 45px;
-  margin-top: 40px;
+  margin-top: 80px;
   padding: 12px;
 }
 
+@keyframes C_blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.short_introduce i {
+  font-size: 40px;
+  font-weight: 600;
+  color: tomato;
+  animation: C_blink 1.5s linear infinite;
+}
+
 .short_self_introduce {
-  color: #20284a;
+  color: tomato;
 }
 
 .menu_img-column {

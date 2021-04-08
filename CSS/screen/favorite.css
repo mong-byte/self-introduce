@@ -46,4 +46,15 @@
   .lets_join {
     font-size: 25px;
   }
+
+  .favorite_column img {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+  }
+
+  .favorite_info {
+    margin-top: 24px;
+    font-size: 24px;
+  }
 }
