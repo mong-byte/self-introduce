@@ -28,3 +28,30 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media all and (max-height: 400px) and (orientation: landscape) {
+  .menu_main {
+    display: none;
+  }
+
+  .contents_main {
+    display: none;
+  }
+
+  .mobile_info {
+    display: none;
+  }
+
+  .mobile_mode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .mobile_mode span {
+    font-size: 40px;
+    color: #20284a;
+  }
+}

@@ -120,17 +120,3 @@ body {
     display: none;
   }
 }
-
-@media screen and (max-width: 456px) and (orientation: landscape) {
-  .menu_main {
-    display: none;
-  }
-
-  .mobile_info {
-    display: none;
-  }
-
-  .mobile_mode {
-    display: flex;
-  }
-}
