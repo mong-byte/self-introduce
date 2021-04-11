@@ -57,7 +57,7 @@ body {
 
 .profile,
 .favorite,
-.i_want,
+.todo,
 .mention {
   padding-right: 36px;
   padding-bottom: 36px;
@@ -79,7 +79,7 @@ body {
 
 .profile_link,
 .favorite_link,
-.i_want_link,
+.todo_link,
 .mention_link {
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ body {
 
 .profile.active img,
 .favorite.active img,
-.i_want.active img,
+.todo.active img,
 .mention.active img {
   animation: img_bubble 0.5s ease-in-out infinite;
   border: 5px solid tomato;
@@ -97,7 +97,7 @@ body {
 
 .profile_comment,
 .favorite_comment,
-.i_want_comment,
+.todo_comment,
 .mention_comment {
   font-size: 32px;
   padding: 8px 12px;
@@ -106,7 +106,7 @@ body {
 
 .profile.active .profile_comment,
 .favorite.active .favorite_comment,
-.i_want.active .i_want_comment,
+.todo.active .todo_comment,
 .mention.active .mention_comment {
   color: tomato;
 }

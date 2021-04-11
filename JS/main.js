@@ -5,7 +5,7 @@ const info = document.querySelector(".mobile_info");
 
 const profile = document.querySelector(".profile");
 const favorite = document.querySelector(".favorite");
-const wanna = document.querySelector(".i_want");
+const todo = document.querySelector(".todo");
 const mention = document.querySelector(".mention");
 
 let imgToggler = false;
@@ -33,10 +33,10 @@ favorite.addEventListener("mouseenter", () => {
   }
 });
 
-wanna.addEventListener("mouseenter", () => {
+todo.addEventListener("mouseenter", () => {
   imgToggler = true; 
   if(imgToggler === true){
-    wanna.classList.add("active");
+    todo.classList.add("active");
   }
 });
 
@@ -66,11 +66,11 @@ favorite.addEventListener("mouseleave", () => {
   }
 });
 
-wanna.addEventListener("mouseleave", () => {
+todo.addEventListener("mouseleave", () => {
   if(imgToggler === true){
     imgToggler = false}; 
   if(imgToggler === false){
-    wanna.classList.remove("active");
+    todo.classList.remove("active");
   }
 });
 

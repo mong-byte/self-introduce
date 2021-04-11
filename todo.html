@@ -9,7 +9,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I'm Ginger! - I wanna</title>
+  <title>I'm Ginger! - To Do List!</title>
   <script src="https://kit.fontawesome.com/bd1734e853.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -35,17 +35,18 @@
     <a href="#" class="navbar_toggleBtn"><i class="fas fa-bars"></i></a>
   </nav>
   <main class="contents_main">
-    <div class="wanna_column">
-      <img src="image/wanna001.jpg">
-      <span class="wanna_info">
-        프론트엔드 개발자부터 시작해서 <br>백엔드를 지나고<br>
-        풀스택 개발자가 되고 싶습니다!
-      </span>
+    <div class="todo_column">
+      <span class="makeToDoList">Make Your To-do List!</span>
+      <form class="toDoForm">
+        <input type="text" placeholder="Write your To-do List!">
+      </form>
+      <ul class="toDoList"></ul>
     </div>
   </main>
   <div class="mobile_mode">
     <span>세로모드로 돌려주세요ㅠㅠ</span>
   </div>
   <script src="JS/contents.js" defer></script>
+  <script src="JS/todo.js"></script>
 </body>
 </html>

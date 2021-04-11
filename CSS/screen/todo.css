@@ -1,0 +1,64 @@
+.todo_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.makeToDoList {
+  margin-top: 45px;
+  font-size: 54px;
+  color: tomato;
+}
+
+.toDoForm input {
+  margin-top: 45px;
+  height: 45px;
+  width: 300px;
+  border: 2px solid tomato;
+  border-radius: 10px;
+  background-color: rgba(245, 222, 179, 0.5);
+}
+
+.toDoForm input:focus {
+  outline: none;
+}
+
+.toDoForm input::placeholder {
+  color: tomato;
+  text-align: center;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 25px;
+}
+
+.toDoList {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.toDoList li {
+  font-size: 35px;
+  color: tomato;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  list-style: square;
+}
+
+.toDoList button {
+  border: 2px solid wheat;
+  background-color: tomato;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 35px;
+  color: wheat;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .makeToDoList {
+    margin-top: 60px;
+    font-size: 35px;
+    color: tomato;
+  }
+}
