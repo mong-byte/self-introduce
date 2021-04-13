@@ -22,6 +22,7 @@
 
 .toDoForm input:focus {
   outline: none;
+  background-color: white;
 }
 
 .toDoForm input::placeholder {
@@ -29,6 +30,10 @@
   text-align: center;
   font-family: "Nanum Pen Script", cursive;
   font-size: 25px;
+}
+
+.toDoForm input:focus::placeholder {
+  color: #20284a;
 }
 
 .toDoList {
