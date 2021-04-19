@@ -8,6 +8,10 @@ const favorite = document.querySelector(".favorite");
 const todo = document.querySelector(".todo");
 const mention = document.querySelector(".mention");
 
+const openWindow = document.querySelector(".mention");
+const modal = document.querySelector(".modal");
+const closeWindow = document.querySelector("#back-btn");
+
 let imgToggler = false;
 
 
@@ -81,3 +85,19 @@ mention.addEventListener("mouseleave", () => {
     mention.classList.remove("active");
   }
 });
+
+
+function openModal(){
+  openWindow.addEventListener("click",() => modal.classList.remove("hidden"));
+}
+
+function closeModal(){
+  closeWindow.addEventListener("click",() => modal.classList.add("hidden"));
+}
+
+function init(){
+  openModal();
+  closeModal();
+}
+
+init();
